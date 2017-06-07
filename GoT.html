@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chuck Jokes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="library.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Chuck Norris Jokes</h2>
+        <br/>
+        <p><select id="gotName" name="gotName">
+            <option value="movie">Movie</option>
+            <option value="food">Food</option>
+            <option value="celebrity">Celebrity</option>
+            <option value="science">Science</option>
+            <option value="political">Political</option>
+            <option value="sport">Sport</option>
+            <option value="religion">Religion</option>
+            <option value="animal">Animal</option>
+            <option value="music">Music</option>
+            <option value="history">History</option>
+            <option value="travel">Travel</option>
+            <option value="career">Career</option>
+            <option value="money">Money</option>
+            <option value="fashion">Fashion</option>
+        </select></p>
+        <!--<div>
+            <div id="zipbox" class="control-group">
+                <label for="zip">Name</label>
+                <input type="text" name="gotName" id="gotName" placeholder="Jon Snow" />
+            </div>
+        </div> -->
+        <br />
+        <div>
+            <button class='btn btn-success btn-large' onclick="pullChar('gotName')">Tell Joke</button>
+        </div>
+        <br />
+        <div>
+            <div id="name" class=""></div>
+            <br>
+            <div id="birth" class=""></div>
+            <br>
+            <div id="death" class=""></div>
+            <br>
+            <div id="titles" class=""></div>
+            <br>
+            <div id="family" class=""></div>
+            <br>
+            <div id="actor" class=""></div>
+        </div>
+    </div>
+</body>
+
+</html>
